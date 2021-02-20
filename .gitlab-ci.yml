@@ -6,12 +6,12 @@ cache:
 
 before_script:
   - rm -rf build
-  - CI=false npm install
+  - CI=false yarn install
 
 pages:
   stage: deploy
   script:
-    - CI=false npm run build
+    - CI=false yarn run build
     - rm -rf public
     - cp build/index.html build/404.html
     - mv build public
