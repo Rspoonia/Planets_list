@@ -19,10 +19,7 @@ export default function Planets() {
    * for track user which planet is seeing
    */
   const [isFavPlanet, setPlanetType] = useState(false)
-  /**
-   * show modal popup warning message
-   */
-  const [showModal, setShowModal] = useState(false)
+
   /**
    * TODO: we can implement pagination
    * for fetch all planets data onload

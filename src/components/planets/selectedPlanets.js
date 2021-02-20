@@ -15,6 +15,12 @@ export default function SelectedPlanets({ planetsData, favplanetHandler }) {
             />
           )
       )}
+      {planetsData.filter((planet) => planet.isFavourite && planet).length ===
+        0 && (
+        <p className="no-planet">
+          Oop's there is no favorite planet is selected.
+        </p>
+      )}
     </div>
   )
 }
