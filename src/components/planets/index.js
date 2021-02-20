@@ -44,7 +44,7 @@ export default function Planets() {
     const tempPlanet = [...allPlanets]
     const availableIndex = tempPlanet.findIndex((planet) => planet.id === id)
     tempPlanet[availableIndex].isFavourite
-      ? (tempPlanet[availableIndex].isFavPlanet = false)
+      ? (tempPlanet[availableIndex].isFavourite = false)
       : (tempPlanet[availableIndex].isFavourite = true)
     setAllPlanets(tempPlanet)
   }
