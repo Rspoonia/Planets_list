@@ -9,7 +9,7 @@ export default function Cards({ planet, favplanetHandler }) {
   return (
     <div className="card">
       <span>{planet.name}</span>
-      <span onClick={() => favplanetHandler(planet.id)}>
+      <span className="cur-pointer" onClick={() => favplanetHandler(planet.id)}>
         <Heart
           className={planet.isFavourite ? 'fav-selected' : 'fav-no-selected'}
         />

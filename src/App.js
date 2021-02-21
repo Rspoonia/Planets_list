@@ -4,7 +4,7 @@ import Planets from './components/planets'
 function App() {
   return (
     <div className="App">
-      <h1 className="heading-text">Welcome to planets</h1>
+      <h1 className="heading-text">Welcome to Planets</h1>
       <Planets />
     </div>
   )
