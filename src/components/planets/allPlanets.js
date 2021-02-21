@@ -1,6 +1,10 @@
 import React from 'react'
 import Cards from './cards'
 
+/**
+ *
+ * @param {*} list of all planets
+ */
 export default function AllPlanets({ planetsData, favplanetHandler }) {
   return (
     <div className="itme-list">

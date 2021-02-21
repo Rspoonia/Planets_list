@@ -1,6 +1,11 @@
 import React from 'react'
 import Cards from './cards'
 
+/**
+ *
+ * @param {*} planetsData for selected as favorite list
+ */
+
 export default function SelectedPlanets({ planetsData, favplanetHandler }) {
   return (
     <div className="itme-list">
