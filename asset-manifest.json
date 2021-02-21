@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Planets_list/static/css/main.f915a3f8.chunk.css",
+    "main.js": "/Planets_list/static/js/main.e80cca38.chunk.js",
+    "main.js.map": "/Planets_list/static/js/main.e80cca38.chunk.js.map",
+    "runtime-main.js": "/Planets_list/static/js/runtime-main.73d2d11f.js",
+    "runtime-main.js.map": "/Planets_list/static/js/runtime-main.73d2d11f.js.map",
+    "static/js/2.b0e0854d.chunk.js": "/Planets_list/static/js/2.b0e0854d.chunk.js",
+    "static/js/2.b0e0854d.chunk.js.map": "/Planets_list/static/js/2.b0e0854d.chunk.js.map",
+    "static/js/3.fbde828c.chunk.js": "/Planets_list/static/js/3.fbde828c.chunk.js",
+    "static/js/3.fbde828c.chunk.js.map": "/Planets_list/static/js/3.fbde828c.chunk.js.map",
+    "index.html": "/Planets_list/index.html",
+    "static/css/main.f915a3f8.chunk.css.map": "/Planets_list/static/css/main.f915a3f8.chunk.css.map",
+    "static/js/2.b0e0854d.chunk.js.LICENSE.txt": "/Planets_list/static/js/2.b0e0854d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73d2d11f.js",
+    "static/js/2.b0e0854d.chunk.js",
+    "static/css/main.f915a3f8.chunk.css",
+    "static/js/main.e80cca38.chunk.js"
+  ]
+}
